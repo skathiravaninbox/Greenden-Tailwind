@@ -61,14 +61,14 @@
     <section class="text-center">
         <h1 class="text-3xl font-bold mt-5 text-center">Our Products</h1>
         <div class="w-4/5 mx-auto">
-            <input type="text" class="border border-black p-2 m-3 w-full" placeholder="Search for a Product...">
+            <input id="search" type="text" class="border border-black p-2 m-3 w-full" placeholder="Search for a Product...">
         </div>
     </section>
 
     <!-- Product List -->
     <section class="p-4 text-center">
         <!-- Grid container for Product List -->
-        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+        <div id="product-container" class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
            
             <div>
                 <img src="./images/bestseller_5.jpg" class="inline hover:shadow-lg transform hover:-translate-y-2"
@@ -124,7 +124,7 @@
                 <h1>Petunia Plant</h1>
                 <p>$33</p>
             </div>       
- <div>
+            <div>
                 <img src="./images/bestseller_1.jpg" class="inline hover:shadow-lg transform hover:-translate-y-2"
                     alt="Campanula Bellflower">
                 <h1>Campanula Portenschlagiana</h1>
